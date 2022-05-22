@@ -1,0 +1,57 @@
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formChoice {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formBtnLeft {
+  width: 47%;
+}
+
+.formBtnRight {
+  width: 47%;
+}
+
+.formText > h3 {
+  text-align: center;
+  color: #8492a6;
+}
+
+.formAction {
+  box-shadow: 0 3px 5px 0 rgb(57 108 240 / 30%);
+}
+
+.buttonStyle {
+  border-radius: 6px;
+  background-color: rgba(57, 108, 240, 0.1);
+  border-color: rgba(57, 108, 240, 0.1);
+  color: #396cf0;
+  box-shadow: 0 3px 5px 0 rgb(57 108 240 / 30%);
+}
+
+.formFooter {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.formFooter > h3 {
+  display: inline-block;
+}
+
+.linkStyle {
+  font-size: 1.17em;
+  margin-left: 10px;
+}
